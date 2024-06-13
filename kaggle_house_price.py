@@ -24,7 +24,7 @@ from shapash import SmartExplainer
 from shapash.data.data_loader import data_loading
 
 
-train = pd.read_csv("./house-prices-advanced-regression-techniques/train.csv")
+# train = pd.read_csv("./house-prices-advanced-regression-techniques/train.csv")
 
 
 # Browse model !!!
