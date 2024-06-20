@@ -31,6 +31,7 @@ import plotly.express as px
 from PIL import Image
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import pickle
+from sklearn.impute import SimpleImputer 
 
 # train = pd.read_csv("./house-prices-advanced-regression-techniques/train.csv")
 
