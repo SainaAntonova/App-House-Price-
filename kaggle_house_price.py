@@ -1,28 +1,36 @@
-import os
-import sys
+# import os
+# import sys
 
+# import pandas as pd
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# import plotly.express as px
+# from sklearn.model_selection import train_test_split
+# from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+# # from sklearn.preprocessing import OneHotEncoder, StandardScaler
+# # from sklearn.compose import ColumnTransformer
+# # from sklearn.pipeline import Pipeline
+# # from catboost import CatBoostRegressor
+# import streamlit as st
+# from PIL import Image
+# # from my_module import LotFrontageImputer
+# from category_encoders import OrdinalEncoder
+# from sklearn.ensemble import RandomForestRegressor
+# from sklearn.model_selection import train_test_split
+# import pickle
+
+# from shapash import SmartExplainer
+# from shapash.data.data_loader import data_loading
+import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from catboost import CatBoostRegressor
-import streamlit as st
 from PIL import Image
-# from my_module import LotFrontageImputer
-from category_encoders import OrdinalEncoder
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import pickle
-
-from shapash import SmartExplainer
-from shapash.data.data_loader import data_loading
-
 
 # train = pd.read_csv("./house-prices-advanced-regression-techniques/train.csv")
 
